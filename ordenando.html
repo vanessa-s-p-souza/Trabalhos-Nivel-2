@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- saved from url=(0102)file:///C:/Users/User/OneDrive/%C3%81rea%20de%20Trabalho/Trabalho%20Nivel%202/Ordenando/ordenando.html -->
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ordenando Valores </title>
+    <link rel="stylesheet" href="ordenando.css">
+    
+
+</head>
+
+<body>
+    <h1>Ordenando Valores</h1>
+    <!-- Campo de entrada numérico -->
+    <p>Valor</p>
+    <input type="number" id="valor"><br>
+    <br>
+    <button onclick="add()">Adicionar</button>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- Campo de seleção -->
+    <select id="metodoOrdenacao">
+        <option value="bubbleSort" selected="">Blubble Sort</option>
+        <option value="selectionSort">Selection Sort</option>
+        <option value="quickSort">Quick Sort</option>
+    </select> <br>
+
+    <br>
+    <!-- Botão Ordenar -->
+    <button onclick="ordenar()">Ordenar</button>
+
+    <!-- Botão Misturar -->
+    <button onclick="misturar()">Misturar</button><br>
+    <hr>
+
+    <!-- Lista -->
+    <ul id="valores"></ul>
+
+    <!-- Script com funções JavaScript -->
+    <script src="ordenando.Js"></script>
+</body>
+
+</html>
